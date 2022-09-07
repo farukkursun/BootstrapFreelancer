@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+ 
+}
+p{
+  font-size: 1.2rem;
+}
+.ok i {
+  color: white;
+  font-size: 2rem;
+  padding-top: 0.5rem;
+  text-align: center;
+  width: 3.5rem;
+  height: 4rem;
+  background-color: purple;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+.fa-solid {
+  color: rgb(95, 23, 23);
+  font-weight: 600;
+}
+
+.nav-link {
+  display: inline-block;
+  margin: 0 5px;
+  color: black !important;
+  font-size: 1.1rem;
+  padding: 10px;
+}
+.nav-link:hover {
+  background-color: purple;
+  border-radius: 20px;
+  color: white !important;
+}
+.nav-link:hover .fa-solid {
+  color: white;
+}
+.navbar a{
+  font-size: 1.3rem;
+} 
+
+.header img {
+  height: 100vh;
+  
+  
+}
+.inline {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+  color: white;
+}
+.inline button {
+  height: 3rem;
+  width: 10rem;
+  border: 1px solid white;
+  border-radius: 30px;
+  color: white;
+  background-color: rgba(56, 56, 56, 0.884);
+}
+.inline button:hover {
+  background-color: purple;
+}
+.inline .i i {
+  color: white;
+}
+
+#hakkimda {
+  /* display: flex; */
+  margin-top: 2rem;
+}
+
+.sectiondiv .fa-brands {
+  font-size: 2rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.5rem;
+
+  color: purple;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 50%;
+}
+.sectiondiv span {
+  color: rgb(156, 66, 156);
+}
+
+.baslik {
+  margin: 5rem auto;
+  text-align: center;
+}
+.fa-atom {
+  color: purple;
+  font-size: 3rem;
+}
+.card {
+  text-align: center;
+}
+.card i {
+  margin-top: 1rem;
+  color: lightgrey;
+  font-size: 3rem;
+  display: inline-block;
+}
+.card span {
+  color: white;
+  border-bottom: 3px solid purple;
+}
+#musteriler {
+  background-color: lightgrey;
+  text-align: center;
+  margin-top: 4rem;
+}
+#musteriler i {
+  margin-top: 4rem;
+}
+#musteriler img {
+  border: 1px solid gray;
+  border-radius: 50%;
+}
+#musteriler p {
+  padding: 0 2rem;
+}
+
+.referansbaslik {
+  width: 80%;
+  margin: 1rem auto;
+  text-align: center;
+}
+.ortanavbar{
+  margin-bottom: 1rem;
+}
+.ortanavbar a{
+  font-size: 1.3rem;
+}
+.card2 img {
+  border-radius: 20px;
+  border: none;
+}
+
+.card2::after {
+  content: "Proje Adi";
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 3rem;
+  margin: auto;
+  width: 100%;
+  height: 0%;
+  transition: all 1s;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+}
+.card2:hover::after {
+  opacity: 0.6;
+  height: 100%;
+}
+#iletisim {
+  text-align: center;
+}
+#iletisim .row .fab,
+.fas {
+  font-size: 2rem;
+  color: purple;
+}
+#iletisim .row a {
+  color: darkgray;
+}
+.btnson button {
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  width: 12rem;
+  height: 3.5rem;
+  background-color: rgb(80, 79, 79);
+}
+.btnson button:hover {
+  background-color: purple;
+}
+footer {
+  height: 15rem;
+}
+footer i {
+  font-size: 2rem;
+  color: white;
+  margin-right: 1rem;
+  transition: color 1s;
+}
+
+article a i {
+  padding-top: 1rem;
+  width: 4rem;
+  height: 4rem;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+}
